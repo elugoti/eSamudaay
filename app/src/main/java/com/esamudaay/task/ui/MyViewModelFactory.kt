@@ -1,8 +1,7 @@
-package com.esamudaay.task
+package com.esamudaay.task.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.esamudaay.task.data.MainViewModel
 import com.esamudaay.task.repository.MainRepository
 
 class MyViewModelFactory constructor(private val repository: MainRepository): ViewModelProvider.Factory {

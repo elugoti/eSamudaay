@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.esamudaay.task.data.Pet
 import com.esamudaay.task.databinding.ItemPetBinding
+import com.esamudaay.task.utils.Utils
 
 class PetsDisplayAdapter: RecyclerView.Adapter<MainViewHolder>() {
 

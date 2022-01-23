@@ -1,4 +1,4 @@
-package com.esamudaay.task
+package com.esamudaay.task.ui
 
 import android.content.res.ColorStateList
 import android.os.Bundle
@@ -8,12 +8,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.esamudaay.task.PetsDisplayAdapter
+import com.esamudaay.task.R
 import com.esamudaay.task.api.ApiService
-import com.esamudaay.task.data.MainViewModel
 import com.esamudaay.task.data.Pet
 import com.esamudaay.task.databinding.ActivityMainBinding
 import com.esamudaay.task.repository.MainRepository
-import com.esamudaay.task.ui.DrawableClickListener
 import com.esamudaay.task.ui.DrawableClickListener.DrawablePosition
 import com.google.android.material.button.MaterialButton
 import kotlinx.android.synthetic.main.activity_main.*

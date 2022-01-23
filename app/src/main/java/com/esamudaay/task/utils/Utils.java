@@ -1,4 +1,4 @@
-package com.esamudaay.task;
+package com.esamudaay.task.utils;
 
 import android.net.ParseException;
 import android.util.Log;

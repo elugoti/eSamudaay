@@ -1,7 +1,8 @@
-package com.esamudaay.task.data
+package com.esamudaay.task.ui
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.esamudaay.task.data.Pet
 import com.esamudaay.task.repository.MainRepository
 import retrofit2.Call
 import retrofit2.Callback
